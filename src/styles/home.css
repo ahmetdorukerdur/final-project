@@ -1,0 +1,14 @@
+h2{
+  color: purple;
+  font-weight: 600;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card{
+  width: 18rem;
+  border-style: none;
+}
