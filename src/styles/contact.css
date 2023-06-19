@@ -1,0 +1,8 @@
+.address{
+  display: flex;
+  gap: 25px;
+}
+
+.border-start{
+  display: grid;
+}

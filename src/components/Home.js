@@ -3,8 +3,6 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../styles/home.css';
 import Mobile from '../images/mobile application.jpeg';
 import Software from '../images/software development.jpeg';
-import ECommerce from '../images/e-commerce.jpg';
-
 
 const Home = () => {
   return (
@@ -21,28 +19,20 @@ const Home = () => {
         </Col>
       </Row>
       <Row>
-        <div className='card'>
+        <div className='card h-100'>
           <img className='card-img-top' src={Mobile} />
           <div className='card-body'>
             <h5 className='card-title'>Mobile Applications</h5>
             <p className='card-text'>We develop hybrid and native mobile applications for you to take part in the mobile world professionally.</p>
           </div>
         </div>
-        <div className='card'>
+        <div className='card h-100'>
           <img className='card-img-top' src={Software} />
           <div className='card-body'>
             <br/>
             <br/>
             <h5 className='card-title'>Software Development</h5>
             <p className='card-text'>We produce custom professional software solutions for all your software demands.</p>
-          </div>
-        </div>
-        <div className='card'>
-          <img className='card-img-top' src={ECommerce} />
-          <div className='card-body'>
-            <br/>
-            <h5 className='card-title'>E-Commerce</h5>
-            <p className='card-text'>We offer you quality e-commerce solutions to bring your products to wider markets.</p>
           </div>
         </div>
       </Row>

@@ -1,0 +1,12 @@
+h5{
+  font-size: 30px;
+}
+
+h3{
+  font-weight: 100px;
+}
+
+.bottom-wrapper{
+  display: grid;
+  gap: 30px;
+}

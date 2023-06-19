@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NotFound from './components/NotFound';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/services' element={<Services />}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
     </BrowserRouter>      
